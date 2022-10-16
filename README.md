@@ -32,13 +32,40 @@ React eStore uses multiple programming languages and many open source projects:
 ___
 
 ## Installation
+Clone git repo:
+```sh
+gh repo clone Aluisio-Matias/React-eStore
+```
+To install the back-end server, first create the database by going into your directory and on the command line enter:
+```sh
+psql < eStore.sql
+```
+Inside the backend directoty install the package.json
+```sh
+npm install
+```
+To run the server:
+```sh
+node server.js
+```
+Or if you have nodemon installed just type:
+```sh
+nodemon
+```
+___
+To install the front-end, go inside the directory and type in the command line:
+```sh
+npm install
+```
+In the project directory, you can run:
+```sh
+npm start
+```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser (preferably Google Chrome).
 
-
-
-
-
-
-
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 
 
